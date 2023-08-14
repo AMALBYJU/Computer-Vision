@@ -17,13 +17,13 @@ The datasets can be accessed [here](https://drive.google.com/drive/folders/1pSHV
 
 1. Training & Testing Densenet121
 	1. Run `densenet.py` and generate `.h5` file
-	1. Run `densenet_extra_train.py`. 2 H5 files will be present. IMPORTANT: Delete `trained_densenet_model.h5` and then rename
+	1. Run `densenet_extra_train.py`. 2 H5 files will be present. **Caution:** Delete `trained_densenet_model.h5` and then rename
 	    `trained_densenet_model2.h5` as `trained_densenet_model.h5`.
 	1. Run `densenet_run.py` and see its performance.
 
 1. Training & Testing InceptionV3
 	1. Run `inception.py` and generate `.h5` file
-	1. Run `inception_extra_train.py`. 2 H5 files will be present. IMPORTANT: Delete `trained_inception_model.h5` and then rename
+	1. Run `inception_extra_train.py`. 2 H5 files will be present. **Caution:** Delete `trained_inception_model.h5` and then rename
 	    `trained_inception_model2.h5` as `trained_inception_model.h5`.
 	1. Run `inception_run.py` and see its performance.
 
